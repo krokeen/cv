@@ -1,0 +1,108 @@
+
+body{
+  background-color: #2B2D42 !important;
+  font-family: montrest;
+  font-family: 'Montserrat', sans-serif;
+  height: 160em;
+}
+header{
+  z-index: 1;
+  position: sticky;
+  top:0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background-color: #8D99AE;
+  color: #EDF2F4;
+  padding: 50px;
+}
+h1 span{
+  color: #2B2D42;
+}
+.contact{
+  font-size: 24px;
+  padding: 28px 0 5px 0;
+}
+a{
+  color: #2B2D42 !important;
+  text-decoration: none !important;
+  padding: 6px ;
+}
+section{
+  background-color: #EDF2F4;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding-top: 80px;
+  padding-left: 250px;
+}
+.lang{
+  padding-bottom: 50px;
+}
+img{
+  width: 120px;
+  
+}
+.rounded-circle{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.lang span{
+  font-size: 15px;
+  margin-top: 1em;
+  margin-left: 0.4em;
+  padding: 0.6em;
+}
+.badge{
+  background-color: #8D99AE !important;
+}
+.cool{
+  background-color: #D80032 !important;
+}
+h2{
+  border-bottom: 2px solid;
+  width: 90%;
+}
+h5{
+  padding-top: 1.8em;
+}
+section p{
+  font-weight: 600;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+h6{
+  font-size: 24px !important;
+}
+.padd{
+  padding-top: 2.5em;
+}
+.mb-0{
+  font-size: 16px;
+}
+a{
+  font-weight: 900;
+  padding: 0 !important;
+}
+li{
+  font-weight: 500;
+}
+.closeout{
+  z-index: 1;
+  position: relative;
+  bottom:0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background-color: #8D99AE;
+  color: #EDF2F4;
+  padding-bottom: 30em;
+}
+.txtend{
+  margin-top: 20px;
+  color: #EDF2F4;
+  text-align: center;
+  padding-bottom: 30px;
+}
