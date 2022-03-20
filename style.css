@@ -1,12 +1,12 @@
 
 body{
-  background-color: #2B2D42 !important;
+  background-color: #8D99AE !important;
   font-family: montrest;
   font-family: 'Montserrat', sans-serif;
-  height: 160em;
+  height: 170em;
 }
 header{
-  z-index: 1;
+  z-index: 2;
   position: sticky;
   top:0;
   left: 0;
@@ -29,6 +29,7 @@ a{
   padding: 6px ;
 }
 section{
+  z-index: 1;
   background-color: #EDF2F4;
   position: relative;
   bottom: 0;
@@ -37,6 +38,7 @@ section{
   margin: auto;
   padding-top: 80px;
   padding-left: 250px;
+  padding-bottom: 20px;
 }
 .lang{
   padding-bottom: 50px;
@@ -90,17 +92,84 @@ li{
   font-weight: 500;
 }
 .closeout{
-  z-index: 1;
-  position: relative;
+  z-index: 0;
+  position: absolute;
   bottom:0;
   left: 0;
   right: 0;
-  text-align: center;
   background-color: #8D99AE;
-  color: #EDF2F4;
-  padding-bottom: 20em;
+  height: 200px;
 }
 .txtend{
+  font-size: 12px !important;
   color: #EDF2F4;
   text-align: center;
+  position: fixed;
+  bottom: 0;
+  margin: 20px;
+  left: 10em;
+}
+
+/* responsive designe */
+@media screen and (max-width: 600px){
+  header, section{
+    width:100%;
+  }
+  section{
+    padding-left: 35px;
+    padding-right: 20px;
+  }
+  body{
+    height: 185em;
+  }
+  p{
+    font-size: 14px !important;
+  }
+  .lang span{
+    font-size: 13px;
+    margin-top: 1em;
+    margin-left: 0.4em;
+    padding: 0.4em;
+  }
+}
+@media screen and (max-height: 1400px){
+  header, section{
+    width:100%;
+  }
+  body{
+    height: 192em;
+  }
+}
+@media screen and (max-width: 1000px){
+  header, section{
+    width:100%;
+  }
+  section{
+    padding-left: 35px;
+    padding-right: 20px;
+  }
+  body{
+    height: 192em;
+  }
+}
+
+@media screen and (max-height: 750px){
+  h1{
+    font-size: 1rem !important;
+  }
+  h4{
+    font-size: 1rem !important;
+  }
+  .rounded-circle{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  img{
+    width: 75px;
+  }
+ header{
+   padding-top: 20px;
+   padding-bottom: 10px;
+ }
+ 
 }
